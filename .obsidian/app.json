@@ -1,1 +1,13 @@
-{}
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "promptDelete": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": true,
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "attachmentFolderPath": "./",
+  "newLinkFormat": "absolute",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
+}

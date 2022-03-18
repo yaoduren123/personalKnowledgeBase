@@ -4,68 +4,119 @@
     "type": "split",
     "children": [
       {
-        "id": "68b6f565289aa489",
+        "id": "6ee50cdbc3ba1973",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "前端/CSS/line-height.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6002df76e12aa54c",
-    "type": "mobile-drawer",
+    "id": "b229d3dd20cba256",
+    "type": "split",
     "children": [
       {
-        "id": "e25d225d5927e972",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "f8add7ab75e0fd72",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "a336d01b5421a459",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2bfc7f5d056e80",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "53d0653458c28b71",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
-      }
-    ]
-  },
-  "right": {
-    "id": "c519a338c1919c63",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "fa874b5c8c1f92d0",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "68b6f565289aa489",
-  "lastOpenFiles": []
+  "right": {
+    "id": "0fde497948d85ac6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b19c26f9d4380901",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "475341b7c38c3c98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "前端/CSS/line-height.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9aa949b0f77de68c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/CSS/line-height.md"
+              }
+            }
+          },
+          {
+            "id": "17f75935f2f34744",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "08ea3665eb2c32bb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "6ee50cdbc3ba1973",
+  "lastOpenFiles": [
+    "前端/CSS/line-height.md",
+    "README.md",
+    "ee.md"
+  ]
 }
