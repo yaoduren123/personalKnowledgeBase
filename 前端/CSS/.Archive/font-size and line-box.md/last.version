@@ -66,3 +66,19 @@ There are also other kind of inline elements:
 - inline-block and all inline-* elements
 - inline elements that participate in a specific formatting context (eg. in a flexbox element, all flex items are blocksified)
 For these specific inline elements, height is computed based on their `height`, `margin` and `border` properties. **If height is auto, then line-height is used and the content-area is strictly equal to the line-height**.
+![](./_image/2022-03-21/2022-03-21-21-59-01@2x.jpg)
+> Inline replaced elements, inline-block/inline-* and blocksified inline elements have a content-area equal to their height, or line-height
+
+Anyway, the problem we’re still facing is how much the line-height’s normal value is? And the answer, as for the computation of the content-area’s height, is to be found inside the font metrics.
+So let’s go back to FontForge. The Catamaran’s em-square is 1000, but we’re seeing many ascender/descender values:
+- generals Ascent/Descent: ascender is 770 and descender is 230. Used for character drawings. (table “OS/2”)
+- metrics Ascent/Descent: ascender is 1100 and descender is 540. Used for content-area’s height. (table “hhea” and table “OS/2”)
+- metric Line Gap. Used for line-height: normal, by adding this value to Ascent/Descent metrics. (table “hhea”)
+In our case, the Catamaran font defines a 0 unit line gap, so line-height: normal will be equal to the content-area, which is 1640 units, or 1.64.
+As a comparison, the Arial font describes an em-square of 2048 units, an ascender of 1854, a descender of 434 and a line gap of 67. It means that font-size: 100px gives a content-area of 112px (1117 units) and a line-height: normal of 115px (1150 units or 1.15). All these metrics are font-specific, and set by the font designer.
+It becomes obvious that setting line-height: 1 is a bad practice. I remind you that **unitless values are font-size relative, not content-area relative**, and dealing with a virtual-area smaller than the content-area is the origin of many of our problems.
+![](./_image/2022-03-22/2022-03-22-10-33-08@2x.jpg)
+But not only line-height: 1. For what it’s worth, on the 1117 fonts installed on my computer (yes, I installed all fonts from Google Web Fonts), 1059 fonts, around 95%, have a computed line-height greater than 1. Their computed line-height goes from 0.618 to 3.378. You’ve read it well, 3.378!
+Small details on line-box computation:
+- for inline elements, padding and border increases the background area, but not the content-area’s height (nor the line-box’s height). The content-area is therefore not always what you see on screen. margin-top and margin-bottom have no effect.
+for replaced inline elements, inline-block and blocksified inline elements: padding, margin and border increases the height, so the content-area and line-box’s height
