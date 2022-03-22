@@ -1,5 +1,4 @@
 {
-  "wiki_data_version" : "0.1",
   "tags_tags" : {
     "基本语法" : [
       "_Help\/写作语法\/基本语法.md"
@@ -36,83 +35,55 @@
       "_Help\/写作语法\/基本语法.md"
     ]
   },
-  "words_info" : {
-    "_Help\/写作语法\/基本语法.md" : 390,
-    "_Help\/功能介绍\/思维导图.md" : 288,
-    "_Help\/应该知道的小贴士.md" : 855,
-    "_Help\/其它\/语法建议.md" : 773,
-    "前端\/CSS\/lineHeight.md" : 789,
-    "_Help\/其它\/Metion的限制.md" : 1261,
-    "_Help\/功能介绍\/专有名词.md" : 412,
-    "_Help\/写作语法\/代码、表格、数学公式.md" : 934,
-    "_Help\/功能介绍\/快捷键支持.md" : 384,
-    "前端\/canvas\/应用方案\/当前活跃图形控制点.md" : 356,
-    "前端\/CSS\/font-size and line-box.md" : 1195,
-    "_Help\/知识库.md" : 783,
-    "README.md" : 7,
-    "_Help\/Metion 的界面和操作.md" : 468,
-    "_Help\/功能介绍\/词性标注.md" : 375,
-    "_Help\/功能介绍\/URL Schemes.md" : 263,
-    "_Help\/写作语法\/其它语法.md" : 1160,
-    "_Help\/数据与同步.md" : 2590,
-    "_Help\/简单 Todo 列表.md" : 375,
-    "线性代数\/矩阵\/矩阵运算.md" : 44,
-    "_Help\/Welcome.md" : 940,
-    "_Help\/写作语法\/Metadata 的妙用.md" : 368
-  },
-  "files_mtime_info" : {
-    "_Help\/功能介绍\/专有名词.md" : 1646073252,
-    "_Help\/应该知道的小贴士.md" : 1646073252,
-    "线性代数\/矩阵\/矩阵.md" : 1647940699,
-    "前端\/CSS\/lineHeight VS fontSize VS height.md" : 1647846929,
-    "前端\/canvas\/应用方案\/图形控制点.md" : 1647919008,
-    "_Help\/写作语法\/基本语法.md" : 1646073252,
-    "前端\/CSS\/font-size.md" : 1647916454,
-    "前端\/CSS\/lineHeight.md" : 1647862812,
-    "_Help\/Metion 的界面和操作.md" : 1646073252,
-    "_Help\/其它\/Metion的限制.md" : 1646073252,
-    "前端\/canvas\/应用方案\/当前活跃图形控制点.md" : 1647934646,
-    "_Help\/简单 Todo 列表.md" : 1646073252,
-    "_Help\/功能介绍\/词性标注.md" : 1646073252,
-    "前端\/CSS\/line-height.md" : 1647832831,
-    "_Help\/数据与同步.md" : 1646073252,
-    "README.md" : 1647570254,
-    "_Help\/写作语法\/Metadata 的妙用.md" : 1646073252,
-    "前端\/CSS\/font-size and line-box.md" : 1647916961,
-    "线性代数\/矩阵\/矩阵运算.md" : 1647941858,
-    "_Help\/功能介绍\/快捷键支持.md" : 1646073252,
-    "_Help\/Welcome.md" : 1646073252,
-    "_Help\/写作语法\/其它语法.md" : 1646073252,
-    "_Help\/其它\/语法建议.md" : 1646073252,
-    "_Help\/功能介绍\/思维导图.md" : 1646073252,
-    "_Help\/写作语法\/代码、表格、数学公式.md" : 1647940219,
-    "_Help\/功能介绍\/URL Schemes.md" : 1646073252,
-    "_Help\/知识库.md" : 1647853431
+  "links_backward_paths" : {
+    "代码、表格、数学公式" : [
+      "_Help\/写作语法\/其它语法.md"
+    ],
+    "其它语法" : [
+      "_Help\/写作语法\/Metadata 的妙用.md"
+    ],
+    "_Help\/写作语法\/代码、表格、数学公式.md" : [
+      "_Help\/写作语法\/其它语法.md"
+    ],
+    "a_markdown_filepath" : [
+      "_Help\/知识库.md"
+    ],
+    "_Help\/写作语法\/其它语法.md" : [
+      "_Help\/写作语法\/Metadata 的妙用.md"
+    ],
+    "前端\/CSS\/lineHeight.md" : [
+      "前端\/CSS\/font-size and line-box.md"
+    ],
+    "_Help\/a_markdown_filepath.md" : [
+      "_Help\/知识库.md"
+    ]
   },
   "name_path_info" : {
+    "url schemes" : "_Help\/功能介绍\/URL Schemes.md",
     "readme" : "README.md",
-    "语法建议" : "_Help\/其它\/语法建议.md",
-    "简单 todo 列表" : "_Help\/简单 Todo 列表.md",
-    "font-size and line-box" : "前端\/CSS\/font-size and line-box.md",
-    "词性标注" : "_Help\/功能介绍\/词性标注.md",
-    "代码、表格、数学公式" : "_Help\/写作语法\/代码、表格、数学公式.md",
     "知识库" : "_Help\/知识库.md",
-    "metion的限制" : "_Help\/其它\/Metion的限制.md",
-    "矩阵运算" : "线性代数\/矩阵\/矩阵运算.md",
-    "应该知道的小贴士" : "_Help\/应该知道的小贴士.md",
+    "快捷键支持" : "_Help\/功能介绍\/快捷键支持.md",
+    "词性标注" : "_Help\/功能介绍\/词性标注.md",
     "当前活跃图形控制点" : "前端\/canvas\/应用方案\/当前活跃图形控制点.md",
+    "点积" : "线性代数\/矩阵\/点积.md",
+    "简单 todo 列表" : "_Help\/简单 Todo 列表.md",
     "metion 的其它语法" : "_Help\/写作语法\/其它语法.md",
-    "lineheight" : "前端\/CSS\/lineHeight.md",
-    "思维导图" : "_Help\/功能介绍\/思维导图.md",
-    "lineheight vs fontsize vs height" : "前端\/CSS\/lineHeight VS fontSize VS height.md",
-    "metion 的基本语法" : "_Help\/写作语法\/基本语法.md",
-    "metadata 的妙用" : "_Help\/写作语法\/Metadata 的妙用.md",
     "数据与同步" : "_Help\/数据与同步.md",
     "metion 的界面和操作" : "_Help\/Metion 的界面和操作.md",
-    "快捷键支持" : "_Help\/功能介绍\/快捷键支持.md",
-    "url schemes" : "_Help\/功能介绍\/URL Schemes.md",
-    "欢迎使用 metion" : "_Help\/Welcome.md",
-    "专有名词" : "_Help\/功能介绍\/专有名词.md"
+    "代码、表格、数学公式" : "_Help\/写作语法\/代码、表格、数学公式.md",
+    "叉积" : "线性代数\/矩阵\/叉积.md",
+    "lineheight vs fontsize vs height" : "前端\/CSS\/lineHeight VS fontSize VS height.md",
+    "语法建议" : "_Help\/其它\/语法建议.md",
+    "metadata 的妙用" : "_Help\/写作语法\/Metadata 的妙用.md",
+    "metion的限制" : "_Help\/其它\/Metion的限制.md",
+    "font-size and line-box" : "前端\/CSS\/font-size and line-box.md",
+    "应该知道的小贴士" : "_Help\/应该知道的小贴士.md",
+    "专有名词" : "_Help\/功能介绍\/专有名词.md",
+    "metion 的基本语法" : "_Help\/写作语法\/基本语法.md",
+    "lineheight" : "前端\/CSS\/lineHeight.md",
+    "矩阵运算" : "线性代数\/矩阵\/矩阵运算.md",
+    "思维导图" : "_Help\/功能介绍\/思维导图.md",
+    "欢迎使用 metion" : "_Help\/Welcome.md"
   },
   "todo_list" : {
 
@@ -164,7 +135,11 @@
       "14,### 其它"
     ],
     "线性代数\/矩阵\/矩阵运算.md" : [
-      "0,## 矩阵加法"
+      "0,## 矩阵加法",
+      "1,##  矩阵减法",
+      "2,## 矩阵乘法",
+      "3,### 标量乘法（与常数相乘）",
+      "4,### 与另一个矩阵相乘"
     ],
     "_Help\/功能介绍\/专有名词.md" : [
       "0,## 你有大小写的困扰吗？",
@@ -236,6 +211,21 @@
       "2,## Metion 的导出能力",
       "3,## 开始使用吧"
     ],
+    "线性代数\/矩阵\/点积.md" : [
+      "0,## 定义概念",
+      "1,## 计算",
+      "2,### 夹角计算",
+      "3,### 坐标计算",
+      "4,## 原理释义",
+      "5,### 夹角θ 为什么采用余弦值计算",
+      "6,## 应用场景"
+    ],
+    "线性代数\/矩阵\/叉积.md" : [
+      "0,## 定义",
+      "1,## 运算",
+      "2,###  夹角计算",
+      "3,###  坐标值计算"
+    ],
     "_Help\/功能介绍\/词性标注.md" : [
 
     ],
@@ -276,6 +266,62 @@
       "6,## 不切换输入法就同时输入中英文符号",
       "7,## Tab键的妙用",
       "8,## 创造一个自己喜欢的书写环境"
+    ]
+  },
+  "wiki_data_version" : "0.1",
+  "relative_folders" : [
+    "前端",
+    "前端\/CSS",
+    "_Help",
+    "_Help\/其它",
+    "_Help\/写作语法",
+    "_Help\/功能介绍",
+    "前端\/canvas",
+    "前端\/canvas\/应用方案",
+    "线性代数",
+    "线性代数\/矩阵"
+  ],
+  "filename_path_info" : {
+    "基本语法" : "_Help\/写作语法\/基本语法.md",
+    "矩阵运算" : "线性代数\/矩阵\/矩阵运算.md",
+    "metion 的界面和操作" : "_Help\/Metion 的界面和操作.md",
+    "快捷键支持" : "_Help\/功能介绍\/快捷键支持.md",
+    "数据与同步" : "_Help\/数据与同步.md",
+    "应该知道的小贴士" : "_Help\/应该知道的小贴士.md",
+    "代码、表格、数学公式" : "_Help\/写作语法\/代码、表格、数学公式.md",
+    "语法建议" : "_Help\/其它\/语法建议.md",
+    "lineheight" : "前端\/CSS\/lineHeight.md",
+    "readme" : "README.md",
+    "metion的限制" : "_Help\/其它\/Metion的限制.md",
+    "welcome" : "_Help\/Welcome.md",
+    "其它语法" : "_Help\/写作语法\/其它语法.md",
+    "知识库" : "_Help\/知识库.md",
+    "简单 todo 列表" : "_Help\/简单 Todo 列表.md",
+    "思维导图" : "_Help\/功能介绍\/思维导图.md",
+    "metadata 的妙用" : "_Help\/写作语法\/Metadata 的妙用.md",
+    "词性标注" : "_Help\/功能介绍\/词性标注.md",
+    "url schemes" : "_Help\/功能介绍\/URL Schemes.md",
+    "专有名词" : "_Help\/功能介绍\/专有名词.md",
+    "font-size and line-box" : "前端\/CSS\/font-size and line-box.md",
+    "当前活跃图形控制点" : "前端\/canvas\/应用方案\/当前活跃图形控制点.md",
+    "点积" : "线性代数\/矩阵\/点积.md",
+    "叉积" : "线性代数\/矩阵\/叉积.md"
+  },
+  "links_paths" : {
+    "前端\/CSS\/font-size and line-box.md" : [
+      "前端\/CSS\/lineHeight.md"
+    ],
+    "_Help\/知识库.md" : [
+      "a_markdown_filepath",
+      "_Help\/a_markdown_filepath.md"
+    ],
+    "_Help\/写作语法\/其它语法.md" : [
+      "代码、表格、数学公式",
+      "_Help\/写作语法\/代码、表格、数学公式.md"
+    ],
+    "_Help\/写作语法\/Metadata 的妙用.md" : [
+      "其它语法",
+      "_Help\/写作语法\/其它语法.md"
     ]
   },
   "documents_info" : {
@@ -342,6 +388,32 @@
 
       ],
       "images" : [
+
+      ]
+    },
+    "线性代数\/矩阵\/叉积.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+        {
+          "name" : "2022-03-22-21-47-55@2x.jpg",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-21-47-55@2x.jpg"
+        },
+        {
+          "name" : "2022-03-22-21-47-19@2x.jpg",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-21-47-19@2x.jpg"
+        },
+        {
+          "name" : "2022-03-22-21-56-53@2x.jpg",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-21-56-53@2x.jpg"
+        },
+        {
+          "name" : "2022-03-22-22-03-40@2x.jpg",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-22-03-40@2x.jpg"
+        }
+      ],
+      "attachments" : [
 
       ]
     },
@@ -469,16 +541,36 @@
       ]
     },
     "线性代数\/矩阵\/矩阵运算.md" : {
-      "links" : [
+      "attachments" : [
 
       ],
       "images" : [
         {
-          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-17-18-17@2x.jpg",
-          "name" : "矩阵加法"
+          "name" : "矩阵加法",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-17-18-17@2x.jpg"
+        },
+        {
+          "name" : "矩阵减法",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-22-00@2x.jpg"
+        },
+        {
+          "name" : "常数相乘",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-24-30@2x.jpg"
+        },
+        {
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-29-12@2x.jpg",
+          "name" : "第一行 与 第一列"
+        },
+        {
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-32-01@2x.jpg",
+          "name" : "第一行 与 第二列"
+        },
+        {
+          "name" : "2022-03-22-20-35-43@2x.jpg",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-35-43@2x.jpg"
         }
       ],
-      "attachments" : [
+      "links" : [
 
       ]
     },
@@ -491,6 +583,36 @@
       ],
       "links" : [
 
+      ]
+    },
+    "线性代数\/矩阵\/点积.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+        {
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-45-19@2x.jpg",
+          "name" : "点积"
+        },
+        {
+          "name" : "坐标值计算",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-20-49-13@2x.jpg"
+        },
+        {
+          "name" : "与 b 方向相同的 a 的部分",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-21-03-35@2x.jpg"
+        },
+        {
+          "name" : "2022-03-22-21-05-49@2x.jpg",
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-21-05-49@2x.jpg"
+        },
+        {
+          "path" : "线性代数\/矩阵\/_image\/2022-03-22\/2022-03-22-21-14-22@2x.jpg",
+          "name" : "2022-03-22-21-14-22@2x.jpg"
+        }
       ]
     },
     "_Help\/Metion 的界面和操作.md" : {
@@ -593,114 +715,6 @@
       ]
     }
   },
-  "relative_paths" : [
-    "README.md",
-    "前端\/CSS\/lineHeight.md",
-    "_Help\/其它\/Metion的限制.md",
-    "_Help\/其它\/语法建议.md",
-    "_Help\/应该知道的小贴士.md",
-    "_Help\/Welcome.md",
-    "_Help\/数据与同步.md",
-    "_Help\/写作语法\/基本语法.md",
-    "_Help\/写作语法\/Metadata 的妙用.md",
-    "_Help\/写作语法\/其它语法.md",
-    "_Help\/写作语法\/代码、表格、数学公式.md",
-    "_Help\/Metion 的界面和操作.md",
-    "_Help\/知识库.md",
-    "_Help\/简单 Todo 列表.md",
-    "_Help\/功能介绍\/快捷键支持.md",
-    "_Help\/功能介绍\/思维导图.md",
-    "_Help\/功能介绍\/词性标注.md",
-    "_Help\/功能介绍\/URL Schemes.md",
-    "_Help\/功能介绍\/专有名词.md",
-    "前端\/CSS\/font-size and line-box.md",
-    "前端\/canvas\/应用方案\/当前活跃图形控制点.md",
-    "线性代数\/矩阵\/矩阵运算.md"
-  ],
-  "filename_path_info" : {
-    "基本语法" : "_Help\/写作语法\/基本语法.md",
-    "矩阵运算" : "线性代数\/矩阵\/矩阵运算.md",
-    "metion 的界面和操作" : "_Help\/Metion 的界面和操作.md",
-    "快捷键支持" : "_Help\/功能介绍\/快捷键支持.md",
-    "数据与同步" : "_Help\/数据与同步.md",
-    "应该知道的小贴士" : "_Help\/应该知道的小贴士.md",
-    "代码、表格、数学公式" : "_Help\/写作语法\/代码、表格、数学公式.md",
-    "语法建议" : "_Help\/其它\/语法建议.md",
-    "lineheight" : "前端\/CSS\/lineHeight.md",
-    "readme" : "README.md",
-    "metion的限制" : "_Help\/其它\/Metion的限制.md",
-    "welcome" : "_Help\/Welcome.md",
-    "其它语法" : "_Help\/写作语法\/其它语法.md",
-    "知识库" : "_Help\/知识库.md",
-    "简单 todo 列表" : "_Help\/简单 Todo 列表.md",
-    "思维导图" : "_Help\/功能介绍\/思维导图.md",
-    "metadata 的妙用" : "_Help\/写作语法\/Metadata 的妙用.md",
-    "词性标注" : "_Help\/功能介绍\/词性标注.md",
-    "url schemes" : "_Help\/功能介绍\/URL Schemes.md",
-    "专有名词" : "_Help\/功能介绍\/专有名词.md",
-    "font-size and line-box" : "前端\/CSS\/font-size and line-box.md",
-    "当前活跃图形控制点" : "前端\/canvas\/应用方案\/当前活跃图形控制点.md"
-  },
-  "links_paths" : {
-    "前端\/CSS\/font-size and line-box.md" : [
-      "前端\/CSS\/lineHeight.md"
-    ],
-    "_Help\/知识库.md" : [
-      "a_markdown_filepath",
-      "_Help\/a_markdown_filepath.md"
-    ],
-    "_Help\/写作语法\/其它语法.md" : [
-      "代码、表格、数学公式",
-      "_Help\/写作语法\/代码、表格、数学公式.md"
-    ],
-    "_Help\/写作语法\/Metadata 的妙用.md" : [
-      "其它语法",
-      "_Help\/写作语法\/其它语法.md"
-    ]
-  },
-  "links_backward_paths" : {
-    "代码、表格、数学公式" : [
-      "_Help\/写作语法\/其它语法.md"
-    ],
-    "其它语法" : [
-      "_Help\/写作语法\/Metadata 的妙用.md"
-    ],
-    "_Help\/写作语法\/代码、表格、数学公式.md" : [
-      "_Help\/写作语法\/其它语法.md"
-    ],
-    "a_markdown_filepath" : [
-      "_Help\/知识库.md"
-    ],
-    "_Help\/写作语法\/其它语法.md" : [
-      "_Help\/写作语法\/Metadata 的妙用.md"
-    ],
-    "前端\/CSS\/lineHeight.md" : [
-      "前端\/CSS\/font-size and line-box.md"
-    ],
-    "_Help\/a_markdown_filepath.md" : [
-      "_Help\/知识库.md"
-    ]
-  },
-  "relative_folders" : [
-    "前端",
-    "前端\/CSS",
-    "_Help",
-    "_Help\/其它",
-    "_Help\/写作语法",
-    "_Help\/功能介绍",
-    "前端\/canvas",
-    "前端\/canvas\/应用方案",
-    "线性代数",
-    "线性代数\/矩阵"
-  ],
-  "toc_hash_info" : {
-    "_Help\/写作语法\/其它语法.md" : [
-      "inline_style,行内文本的修饰"
-    ],
-    "前端\/CSS\/lineHeight.md" : [
-      "lineHeight,行高、行距与半行距"
-    ]
-  },
   "tags_paths" : {
     "_Help\/写作语法\/其它语法.md" : [
       "语法",
@@ -729,6 +743,9 @@
       "canvas"
     ],
     "README.md" : [
+
+    ],
+    "线性代数\/矩阵\/点积.md" : [
 
     ],
     "_Help\/Welcome.md" : [
@@ -766,6 +783,9 @@
     "_Help\/功能介绍\/思维导图.md" : [
       "功能"
     ],
+    "线性代数\/矩阵\/叉积.md" : [
+
+    ],
     "_Help\/写作语法\/Metadata 的妙用.md" : [
 
     ],
@@ -778,7 +798,9 @@
   "path_name_info" : {
     "_Help\/功能介绍\/URL Schemes.md" : "URL Schemes",
     "前端\/canvas\/应用方案\/当前活跃图形控制点.md" : "当前活跃图形控制点",
+    "线性代数\/矩阵\/点积.md" : "点积",
     "_Help\/功能介绍\/思维导图.md" : "思维导图",
+    "线性代数\/矩阵\/叉积.md" : "叉积",
     "_Help\/Welcome.md" : "欢迎使用 Metion",
     "_Help\/写作语法\/代码、表格、数学公式.md" : "代码、表格、数学公式",
     "线性代数\/矩阵\/矩阵运算.md" : "矩阵运算",
@@ -798,6 +820,37 @@
     "_Help\/简单 Todo 列表.md" : "简单 Todo 列表",
     "_Help\/写作语法\/其它语法.md" : "Metion 的其它语法",
     "README.md" : "README"
+  },
+  "files_mtime_info" : {
+    "_Help\/功能介绍\/专有名词.md" : 1646073252,
+    "_Help\/应该知道的小贴士.md" : 1646073252,
+    "线性代数\/矩阵\/矩阵.md" : 1647940699,
+    "前端\/CSS\/lineHeight VS fontSize VS height.md" : 1647846929,
+    "前端\/canvas\/应用方案\/图形控制点.md" : 1647919008,
+    "线性代数\/矩阵\/点积.md" : 1647956419,
+    "_Help\/写作语法\/基本语法.md" : 1646073252,
+    "前端\/CSS\/font-size.md" : 1647916454,
+    "前端\/CSS\/lineHeight.md" : 1647862812,
+    "_Help\/Metion 的界面和操作.md" : 1646073252,
+    "_Help\/其它\/Metion的限制.md" : 1646073252,
+    "前端\/canvas\/应用方案\/当前活跃图形控制点.md" : 1647934646,
+    "_Help\/简单 Todo 列表.md" : 1646073252,
+    "_Help\/功能介绍\/词性标注.md" : 1646073252,
+    "前端\/CSS\/line-height.md" : 1647832831,
+    "_Help\/数据与同步.md" : 1646073252,
+    "README.md" : 1647570254,
+    "_Help\/写作语法\/Metadata 的妙用.md" : 1646073252,
+    "前端\/CSS\/font-size and line-box.md" : 1647916961,
+    "线性代数\/矩阵\/矩阵运算.md" : 1647952598,
+    "_Help\/功能介绍\/快捷键支持.md" : 1646073252,
+    "_Help\/Welcome.md" : 1646073252,
+    "_Help\/写作语法\/其它语法.md" : 1646073252,
+    "_Help\/其它\/语法建议.md" : 1646073252,
+    "_Help\/功能介绍\/思维导图.md" : 1646073252,
+    "_Help\/写作语法\/代码、表格、数学公式.md" : 1647940219,
+    "_Help\/功能介绍\/URL Schemes.md" : 1646073252,
+    "_Help\/知识库.md" : 1647853431,
+    "线性代数\/矩阵\/叉积.md" : 1647957822
   },
   "documents_meta_info" : {
     "_Help\/功能介绍\/专有名词.md" : {
@@ -853,6 +906,11 @@
       "title" : "简单 Todo 列表",
       "group" : "Demo\/SimpleTodo"
     },
+    "线性代数\/矩阵\/叉积.md" : {
+      "date" : "2022-03-22 21:40",
+      "raw_metadata_str" : "title: 叉积\ndate: 2022-03-22 21:40",
+      "title" : "叉积"
+    },
     "前端\/CSS\/lineHeight VS fontSize VS height.md" : {
       "date" : "2022-03-21 11:22",
       "raw_metadata_str" : "title: lineHeight\ndate: 2022-03-21 11:22\ntags:  css \ndesc: 333",
@@ -905,14 +963,19 @@
       "date" : "2020-09-23 22:47",
       "raw_metadata_str" : "title: Metion 的界面和操作\ndate: 2020-09-23 22:47"
     },
+    "线性代数\/矩阵\/点积.md" : {
+      "date" : "2022-03-22 20:41",
+      "raw_metadata_str" : "title: 点积\ndate: 2022-03-22 20:41",
+      "title" : "点积"
+    },
     "_Help\/功能介绍\/快捷键支持.md" : {
       "raw_metadata_str" : "title: 快捷键支持\ndate: 2020-09-24 22:09",
       "title" : "快捷键支持",
       "date" : "2020-09-24 22:09"
     },
     "线性代数\/矩阵\/矩阵运算.md" : {
-      "raw_metadata_str" : "title: 矩阵运算\ndate: 2022-03-22 16:56",
       "date" : "2022-03-22 16:56",
+      "raw_metadata_str" : "title: 矩阵运算\ndate: 2022-03-22 16:56",
       "title" : "矩阵运算"
     },
     "线性代数\/矩阵\/矩阵.md" : {
@@ -944,5 +1007,65 @@
       "date" : "2021-08-13 11:25",
       "title" : "URL Schemes"
     }
-  }
+  },
+  "words_info" : {
+    "_Help\/写作语法\/基本语法.md" : 390,
+    "_Help\/功能介绍\/思维导图.md" : 288,
+    "_Help\/应该知道的小贴士.md" : 855,
+    "线性代数\/矩阵\/叉积.md" : 190,
+    "_Help\/其它\/语法建议.md" : 773,
+    "前端\/CSS\/lineHeight.md" : 789,
+    "_Help\/其它\/Metion的限制.md" : 1261,
+    "_Help\/功能介绍\/专有名词.md" : 412,
+    "_Help\/写作语法\/代码、表格、数学公式.md" : 934,
+    "_Help\/功能介绍\/快捷键支持.md" : 384,
+    "前端\/canvas\/应用方案\/当前活跃图形控制点.md" : 356,
+    "前端\/CSS\/font-size and line-box.md" : 1195,
+    "_Help\/知识库.md" : 783,
+    "README.md" : 7,
+    "_Help\/Metion 的界面和操作.md" : 468,
+    "线性代数\/矩阵\/点积.md" : 312,
+    "_Help\/功能介绍\/词性标注.md" : 375,
+    "_Help\/功能介绍\/URL Schemes.md" : 263,
+    "_Help\/写作语法\/其它语法.md" : 1160,
+    "_Help\/数据与同步.md" : 2590,
+    "_Help\/简单 Todo 列表.md" : 375,
+    "线性代数\/矩阵\/矩阵运算.md" : 210,
+    "_Help\/Welcome.md" : 940,
+    "_Help\/写作语法\/Metadata 的妙用.md" : 368
+  },
+  "toc_hash_info" : {
+    "_Help\/写作语法\/其它语法.md" : [
+      "inline_style,行内文本的修饰"
+    ],
+    "前端\/CSS\/lineHeight.md" : [
+      "lineHeight,行高、行距与半行距"
+    ]
+  },
+  "relative_paths" : [
+    "README.md",
+    "前端\/CSS\/lineHeight.md",
+    "_Help\/其它\/Metion的限制.md",
+    "_Help\/其它\/语法建议.md",
+    "_Help\/应该知道的小贴士.md",
+    "_Help\/Welcome.md",
+    "_Help\/数据与同步.md",
+    "_Help\/写作语法\/基本语法.md",
+    "_Help\/写作语法\/Metadata 的妙用.md",
+    "_Help\/写作语法\/其它语法.md",
+    "_Help\/写作语法\/代码、表格、数学公式.md",
+    "_Help\/Metion 的界面和操作.md",
+    "_Help\/知识库.md",
+    "_Help\/简单 Todo 列表.md",
+    "_Help\/功能介绍\/快捷键支持.md",
+    "_Help\/功能介绍\/思维导图.md",
+    "_Help\/功能介绍\/词性标注.md",
+    "_Help\/功能介绍\/URL Schemes.md",
+    "_Help\/功能介绍\/专有名词.md",
+    "前端\/CSS\/font-size and line-box.md",
+    "前端\/canvas\/应用方案\/当前活跃图形控制点.md",
+    "线性代数\/矩阵\/矩阵运算.md",
+    "线性代数\/矩阵\/点积.md",
+    "线性代数\/矩阵\/叉积.md"
+  ]
 }
