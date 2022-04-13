@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/CSS/line-height.md",
+            "file": "极客时间/代码之丑/命名.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/CSS/line-height.md",
+                "file": "极客时间/代码之丑/命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/CSS/line-height.md"
+                "file": "极客时间/代码之丑/命名.md"
               }
             }
           },
@@ -106,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,8 +114,15 @@
   },
   "active": "6ee50cdbc3ba1973",
   "lastOpenFiles": [
-    "前端/CSS/line-height.md",
-    "README.md",
-    "ee.md"
+    "极客时间/代码之丑/命名.md",
+    "极客时间/代码之丑/代码坏味道自查表.md",
+    "线性代数/矩阵/矩阵运算.md",
+    "前端/CSS/font-size and line-box.md",
+    "前端/canvas/应用方案/使用canvas 绘制文本如何测量文本高度.md",
+    "线性代数/矩阵/叉积.md",
+    "线性代数/矩阵/2022-04-11.md",
+    "前端/CSS/lineHeight.md",
+    "前端/CSS/DPI.md",
+    "前端/CSS/line-height.md"
   ]
 }
